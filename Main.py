@@ -1,5 +1,5 @@
 import cv2
-import motor1
+import motor_test
 import RPi.GPIO as GPIO
 import time
 import threading
@@ -33,7 +33,7 @@ def insert_data_to_db():
         time.sleep(1)
 
 #Initialize motor1 object
-m1 = motor1
+m1 = motor_test
 
 #Set minimum distance for obstacle detection
 min_distance = 20
